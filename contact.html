@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <title>WM Design</title>
+    </head>
+
+    <body>
+        <div class="banner">
+            <div class="logo">
+                WM Design
+            </div>
+            <div class="est">
+                est. 2021
+            </div>
+            
+            <div id="nav-icon" onclick="navFunction()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="nav-menu">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="name">Name *</label>
+              <input type="text" id="input_1" name="full_name">
+
+              <label for="email">Email *</label>
+              <input type="email" id="input_2" name="email_address">
+
+              <label for="ph_number">Phone</label>
+              <input type="number" id="input_3" name="phone_number">
+          
+              <label for="state">State *</label>
+              <select id="input_4" name="state">
+                <option value="" selected="selected" class="placeholder">Please select a State</option>
+                <option value="act">Australian Capital Territory</option>
+                <option value="nsw">New South Wales</option>
+                <option value="nt">Northern Territory</option>
+                <option value="qld">Queensland</option>
+                <option value="vic">Victoria</option>
+                <option value="sa">South Australia</option>
+                <option value="wa">Western Australia</option>
+                <option value="tas">Tasmania</option>
+              </select>
+          
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+
+        <script src="js/tiny-slider/min/tiny-slider.js"></script>
+        <script src="js/script.js"></script>
+        
+    </body>
+</html>
