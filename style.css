@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.index-1 {
+    height: 100vh;
+}
+
+.banner {
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 50px;
+    color: white;
+    display: flex;
+}
+
+.est {
+    color: white;
+}
+
+.hamburger {
+    position: absolute;
+    right: 50px;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.line {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+
+.slides {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#slideshow {
+    width: 65%;
+    height: 90%;
+    overflow: hidden;
+}
+
+#controls {
+    margin-top: 15px;
+}
+
+#controls button {
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+}
+
+#controls button:hover {
+    background-color: black;
+    color: white;
+}
+
+#slideshow img {
+    background-color: white;
+    width: 100%;
+}
+
+.sec-1 {
+    height: fit-content;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.text {
+    font-size: 5em;
+    margin-top: 5%;
+}
+
+.filler {
+    font-size: 1em;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.about {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 3em;
+}
+
+.footer {
+    height: 20vh;
+    background-color: black;
+    color: white;
+    text-align: right;
+    vertical-align: center;
+    line-height: 20vh;
+    padding-right: 50px;
+}
