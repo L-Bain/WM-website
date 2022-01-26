@@ -1,0 +1,11 @@
+/* CSS for mobile screen size */
+@media only screen and (max-width: 768px) {
+    .menu-bar{
+        display: none;
+        visibility: hidden;
+    }
+
+    #nav-icon {
+        visibility: visible;
+    }
+}
