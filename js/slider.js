@@ -5,7 +5,5 @@ let slider = tns({
     slideBy: "page",
     controlsContainer: '#controls',
     autoplayButtonOutput: false,
-    prevButton: '.previous',
-    nextButton: '.next',
     autoplay: true
 });
