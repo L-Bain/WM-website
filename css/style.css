@@ -229,12 +229,12 @@ a {
 }
 
 .slides {
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 2%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #slideshow {
@@ -244,15 +244,7 @@ a {
 }
 
 #controls {
-    margin-top: 15px;
     display: none;
-}
-
-#controls button {
-    padding: 5px 10px;
-    display: inline-block;
-    text-decoration: none;
-    background-color: var(--primaryColour);
 }
 
 #controls button:hover {
@@ -265,12 +257,9 @@ a {
     width: 100%;
 }
 
-.sec-2 .sec-3 {
-    height: fit-content;
-    margin-bottom: 5%;
-}
-
 .sec-2 {
+    height: fit-content;
+    margin-bottom: 3%;
     background-color: var(--highlightsColour);
     display: flex;
     justify-content: space-evenly;
@@ -278,7 +267,7 @@ a {
     height: 60vh;
 }
 
-.title-text {
+.sec-2 h2 {
     font-size: 4em;
     font-weight: bold;
     text-align: center;
@@ -302,15 +291,14 @@ a {
     margin-right: 2%;
 }
 
-.about {
-    margin-top: 5%;
+.sec-3 {
+    margin-bottom: 5%;
+}
+
+.sec-3 h2 {
     text-align: center;
     font-size: 3em;
     font-weight: bold;
-}
-
-.sec-3 {
-    margin-bottom: 5%;
 }
 
 .sec-3 img {
@@ -372,7 +360,9 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 .container {
-    margin-top: 8%;
+    outline: 2px solid black;
+    margin-top: 10%;
+    margin-bottom: 3%;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
